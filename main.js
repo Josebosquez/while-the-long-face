@@ -10,10 +10,21 @@ function numberDoubler(num) {
 
 function stringRepeater(str) {
     // Your code here
+    let rep = "";
+    while (rep.length < 10){
+        rep += str;
+    }
+        return rep;
 }
 
 function makeDivisible(x, y) {
     // Your code here
+    let sum = x;
+    while (sum < y){
+        sum = sum*2;
+    }
+    return sum;
+
 }
 
 module.exports = {
