@@ -19,12 +19,10 @@ function stringRepeater(str) {
 
 function makeDivisible(x, y) {
     // Your code here
-    let sum = x;
-    while (sum < y){
-        sum = sum*2;
+    while (x % y){
+        x+=1;
     }
-    return sum;
-
+    return x;
 }
 
 module.exports = {
